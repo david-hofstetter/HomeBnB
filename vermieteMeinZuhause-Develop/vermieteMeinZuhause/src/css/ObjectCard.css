@@ -1,0 +1,63 @@
+/* ObjectCard.css */
+
+.ObjectCard-Container {
+    display: flex;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 10px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .CardImage {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    margin-right: 10px;
+  }
+  
+  .CardContext {
+    flex: 1;
+  }
+  
+  .CardTitle {
+    font-size: 1.5rem;
+    margin-bottom: 5px;
+  }
+  
+  .CardAdress {
+    margin: 0;
+    font-size: 0.9rem;
+  }
+  
+  .Rent-Container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+  
+  .RentButton-Container {
+    flex: 1;
+    margin-right: 10px;
+  }
+  
+  .RentButton {
+    padding: 10px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+  
+  .RentButton:hover {
+    background-color: #45a049;
+  }
+  
+  .Datepicker-Container {
+    flex: 2;
+  }
+  
+  /* Add more styling as needed */
+  
