@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import axios from 'axios';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import '../css/Register.css'
 
 
 
@@ -59,7 +60,7 @@ const SignInBox = () => {
 
   return (
     <div className='SignInBox'>
-      <h1>Erstellen Sie einen Account!</h1>
+      <h1>Create your Account</h1>
       <form className='loginform' onSubmit={handleSubmit}>
         <label>
           <h2>Username</h2>
@@ -76,7 +77,7 @@ const SignInBox = () => {
 
         <div>
           <button id='loginbuttoninlogin' className='loginbutton' type='submit'>
-            Anmelden
+            Register
           </button>
         </div>
       </form>

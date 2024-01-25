@@ -59,7 +59,7 @@ const Loginbox = () => {
 
   return (
     <div className='loginbox'>
-        <h1>Melden Sie sich hier an!</h1>
+        <h1>You can log into your account here</h1>
         <form className='loginform' onSubmit={handleSubmit}>
             <label >
                 <h2>Username</h2>
@@ -70,7 +70,7 @@ const Loginbox = () => {
                 <input name='password' value={formData.password} type="password" onChange={handleChange} />
             </label>
             <div>
-                <button id='loginbuttoninlogin' className='loginbutton' type='submit'>Anmelden</button>
+                <button id='loginbuttoninlogin' className='loginbutton' type='submit'>Sign In</button>
             </div>
         </form>
 

@@ -11,15 +11,17 @@ const Navbar = () => {
     <div className='Navbar-Container'>
         <nav className='navItems'>
           <div>
+            
             <ul id='nav-ul'>
+              <li id="LogoName">FakeBnB</li>
               <li>
-                <Link to="/" className='nav-links'>Home</Link>
+                <Link to="/" className='nav-links'>Start</Link>
               </li>
               <li>
-                <Link to="/rent" className='nav-links'>Mieten</Link>
+                <Link to="/rent" className='nav-links'>For Rent</Link>
               </li>
               <li>
-                <Link to="/about" className='nav-links'>Über uns</Link>
+                <Link to="/about" className='nav-links'>About</Link>
               </li>
             </ul>
           </div>

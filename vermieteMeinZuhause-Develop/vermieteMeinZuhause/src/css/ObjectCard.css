@@ -44,15 +44,16 @@
   
   .RentButton {
     padding: 10px;
-    background-color: #4caf50;
+    background-color:  #152450;
     color: #fff;
     border: none;
     cursor: pointer;
     font-size: 1rem;
+    border-radius: 10px;
   }
   
   .RentButton:hover {
-    background-color: #45a049;
+    background-color: rgb(60,100,159);
   }
   
   .Datepicker-Container {

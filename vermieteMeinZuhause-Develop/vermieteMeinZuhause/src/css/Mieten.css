@@ -1,7 +1,11 @@
 .Object-Board{
     display: flex;
     justify-content: space-around;
-    border-style: solid;
+    
     border-color: white;
+    
 
+}
+.RentTitle{
+    margin-left: 500px;
 }

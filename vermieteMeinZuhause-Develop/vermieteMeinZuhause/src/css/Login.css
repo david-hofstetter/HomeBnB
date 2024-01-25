@@ -1,57 +1,36 @@
-.login{
-    background-color: whitesmoke;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-}
-
-.loginbox{
-    width: 500px;
-    height: 300px;
-    padding: 1rem;
-    background-color: whitesmoke;
-    border: solid rgb(131, 230, 129);
-    border-radius: 5px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-
-.loginform{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-
-.loginform input{
-    width: 10rem;
-}
-
-#loginbuttoninlogin{
-    margin: 1rem 0 ;
-    margin-bottom: 2rem;
-    height: 2rem;
-    width: 10rem;
-}
-
-.signInSuggestion{
-    margin: 1rem;
-    width:500px;
+.login {
     display: flex;
     flex-direction: column;
     align-items: center;
-    border: solid rgb(131, 230, 129);
-    padding: 1rem;
-}
-
-.forgotpasswordbox{
-    margin: 1rem;
-    width: 500px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    border: solid rgb(131, 230, 129);
-    padding: 1rem;
-}
+    margin-top: 100px;
+  }
+  
+  .login h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .login p {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .login a {
+    font-size: 16px;
+    color: #007bff;
+    text-decoration: none;
+    margin-top: 10px;
+  }
+  
+  .signInSuggestion,
+  .forgotpasswordbox {
+    margin-top: 30px;
+  }
+  
+  .forgotpasswordbox a {
+    margin-left: 10px;
+  }
+  .RegisterLinkInLogin{
+    margin-left: 140px;
+  }

@@ -1,5 +1,5 @@
 const express = require('express');
-const stripe = require('stripe')('sk_test_51OL3rsE0SwKraBCI3qs1FjREnMVo72OXsspbUbbCTFbNpD15sV1Rj7qI67UfTRkAY6HxjMeN45TzzyNSil4I3H3N00zPIiy9Il');
+const stripe = require('stripe')('sk_test_51Oc5FfKQgZyuYHaeMweKRZbBPuZPhgHmsT1pLlkiVuHG2TYFwwaP4lnwEfCjnAvgAMoLkEWzQbHaRlr3ZPkSm6V7001FrqgjMj');
 
 const router = express.Router();
 
@@ -18,12 +18,7 @@ router.post('/checkout', async (req, res) => {
       line_items: lineItems,
       mode: 'payment',
       success_url: 'http://localhost:5173/thankyou',
-      cancel_url: 'http://localhost:5173/sorry',
-      metadata: {
-        bookingUser: req.body.bookingUser,
-        dates: req.body.bookedDates.join(', '),
-        rent: req.body.rent
-      },
+      cancel_url: 'http://localhost:5173/sorry'
     });
   
     res.send(JSON.stringify({

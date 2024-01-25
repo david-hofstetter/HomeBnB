@@ -26,7 +26,7 @@ import 'react-toastify/dist/ReactToastify.css';
       errorElement: <Errorpage />,
     },
     {
-      path: "/signIn",
+      path: "/register",
       element:<SignIn />
     },
     {

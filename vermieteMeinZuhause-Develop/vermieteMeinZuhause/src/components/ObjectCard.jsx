@@ -9,27 +9,7 @@ const ObjectCard = (props) => {
 
   const [booking, setBooking] = useState([])
 
-  useEffect(() => {
-    fetch(`http://localhost:3000/booking/bookings/${props.shortname}`, {
-     method: "GET",
-      headers: {
-    'Content-Type': 'application/json'
-  }
-})
-  .then((response) => {
-    return response.json();
-  })
-  .then((response) => {
-    if (response) {
-      console.log(bookingToInvalid(response))
-
-      setBooking(response)
-    }
-  })
-  .catch((error) => {
-    console.error('Error fetching bookings:', error);
-  });
-  }, [])
+  
 
   const addressLines = props.adress ? props.adress.split(',') : [];
 
@@ -144,6 +124,7 @@ const checkout = async () => {
           <div className='RentButton-Container'>
             <button className='RentButton' onClick={checkout} >Rent</button>
           </div>
+
           <div className='Datepicker-Container'>
           <Datepicker 
               controls={['calendar']}

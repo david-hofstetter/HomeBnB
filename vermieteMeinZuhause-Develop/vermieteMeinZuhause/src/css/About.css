@@ -1,0 +1,19 @@
+/* CSS Variables */
+:root {
+    --main-color: #2C3E50;
+    --secondary-color: #2980B9;
+    --tertiary-color: #8E44AD;
+    --light-color: #F1C40F;
+    --white-color: #FFFFFF;
+    --light-grey-color: #ECEFF1;
+    --dark-grey-color: #7F8C8D;
+    --grey-color: #95A5A6;
+   }
+   
+   /* Home Page Styles */
+   .home-section {
+    text-align: center;
+    padding: 5rem 0;
+    background-color: var(--white-color);
+    color: var(--dark-grey-color);
+   }

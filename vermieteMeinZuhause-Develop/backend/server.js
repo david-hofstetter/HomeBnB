@@ -11,7 +11,7 @@ db.on('error', (error) => console.log(error))
 db.once('open', () => console.log('Database connected'))
 
 const stripeRouter = require('./router/stripeRouter')
-app.use('/stripe', stripeRouter)
+app.use('/stripe', stripeRouter) 
 
 app.use(express.json())
 
