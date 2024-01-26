@@ -24,8 +24,42 @@ const Mieten = () => {
         <ObjectCard img={miami} shortname="miamihome" title="Palm Villa Miami" adress="Miami, Florida" price="100" stripeID="price_1Oc5cKKQgZyuYHaelpzzsm3y" />
         <ObjectCard img={africa} shortname="africanhut" title="African Straw Hut" adress="Namibia, Africa" price="5" stripeID="price_1Oc6AxKQgZyuYHaeoPGoefbF" />
         </div>
+      
+                <iframe
+                
+                    width={"25%"}
+                    style={{
+                        aspectRatio: "16 / 9",
+                    }}
+                    src={"https://maps.google.com/maps?q=Hemavan House&t=&z=13&ie=UTF8&&output=embed"}
+                />
+                 <iframe
+          width={"25%"}
+          style={{
+              aspectRatio: "16 / 9",
+          }}
+          src={"https://maps.google.com/maps?q=Villa, Miami&t=&z=13&ie=UTF8&&output=embed"}
+          
+      />
+        <iframe
+          width={"25%"}
+          style={{
+              aspectRatio: "16 / 9",
+          }}
+          src={"https://maps.google.com/maps?q=Haus Mopanie&t=&z=13&ie=UTF8&&output=embed"}
+      />
         
      <div>
+     </div>
+      
+     
+
+<div>
+</div>
+      
+    
+
+<div>
     
 
      </div>

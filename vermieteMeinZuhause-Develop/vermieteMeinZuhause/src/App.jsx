@@ -21,8 +21,8 @@ function App() {
           <Route path='/*' element={<Home />} />
           <Route path='/rent' element={<Mieten />} />
           <Route path='/about' element={<About />} />
-          <Route path='/thankyou' element={<ThankYou />} />
-          <Route path='/sorry' element={<Sorry />} />
+          <Route path='/purchasedone' element={<ThankYou />} />
+          <Route path='/purchasefailed' element={<Sorry />} />
         </Routes>
       </div>
     </>

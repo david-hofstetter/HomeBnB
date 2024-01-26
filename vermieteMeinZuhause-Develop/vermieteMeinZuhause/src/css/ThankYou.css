@@ -1,0 +1,35 @@
+.thank-you-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+    background-color: white;
+    font-family: Arial, sans-serif;
+  }
+  
+  .thank-you-page h1 {
+    font-size: 36px;
+    margin-bottom: 30px;
+    color: #333;
+  }
+  
+  .thank-you-page p {
+    font-size: 20px;
+    margin-bottom: 30px;
+    color: #666;
+    text-align: center;
+  }
+  
+  .thank-you-page button {
+    background-color: #152450;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }

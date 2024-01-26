@@ -20,8 +20,8 @@ import 'react-toastify/dist/ReactToastify.css';
       children: [
         { path: "/rent", element: <Mieten /> },
         { path: "/about", element: <About /> },
-        { path: "/thankyou", element: <ThankYou /> },
-        { path: "/sorry", element: <Sorry /> },
+        { path: "/purchasedone", element: <ThankYou /> },
+        { path: "/purchasefailed", element: <Sorry /> },
       ],
       errorElement: <Errorpage />,
     },

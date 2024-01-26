@@ -1,19 +1,13 @@
-/* CSS Variables */
-:root {
-    --main-color: #2C3E50;
-    --secondary-color: #2980B9;
-    --tertiary-color: #8E44AD;
-    --light-color: #F1C40F;
-    --white-color: #FFFFFF;
-    --light-grey-color: #ECEFF1;
-    --dark-grey-color: #7F8C8D;
-    --grey-color: #95A5A6;
-   }
-   
-   /* Home Page Styles */
-   .home-section {
-    text-align: center;
-    padding: 5rem 0;
-    background-color: var(--white-color);
-    color: var(--dark-grey-color);
-   }
+.about { background-color: #f8f9fa; padding: 20px; text-align: center; }
+
+.about h1 { font-size: 3rem; margin-bottom: 20px; color: #B32324 }
+
+.profile-picture { margin: 20px; }
+
+.profile-picture img { width: 200px; height: 200px; border-radius: 50%; object-fit: cover; }
+
+.contact-details { margin: 20px; }
+
+.contact-details h2 { font-size: 2rem; margin-bottom: 10px; color: #95A5A6; }
+
+.contact-details p { font-size: 1.2rem; margin-bottom: 10px; color: #95A5A6 }

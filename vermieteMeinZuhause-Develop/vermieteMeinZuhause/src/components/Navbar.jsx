@@ -33,13 +33,14 @@ const Navbar = () => {
                     <Link to="/login" className='nav-buttons'>Login</Link>
                   </button>
                   <button className='signbutton'>
-                    <Link to="/signIn" className='nav-buttons'>Sign In</Link>
+                    <Link to="/register" className='nav-buttons'>Sign In</Link>
                   </button>
                 </div>
               ):(
                 <div>
                   <button className='accountButton'>
                     <VscAccount style={{fontSize: 24}}/>
+                  
                   </button>
                 </div>
               )}

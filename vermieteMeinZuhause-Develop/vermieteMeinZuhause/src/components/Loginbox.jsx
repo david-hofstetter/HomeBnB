@@ -25,14 +25,15 @@ const Loginbox = () => {
             
             const response = await axios.post('http://localhost:3000/user/login', formData)
             console.log('Loged in with:', response.data)
-
+            
             setFormData({
                 username: '',
                 password:'',
+                
             })
             
             sessionStorage.setItem('token', response.data)
-            toast.success('Eingeloggt!', {
+            toast.success('Login Successful!', {
                 position: "bottom-right",
                 autoClose: 3000,
                 hideProgressBar: true,
@@ -41,7 +42,10 @@ const Loginbox = () => {
                 draggable: true,
                 progress: undefined,
                 theme: "colored",
+            
                 });
+
+                window.location.assign('http://localhost:5173/');
         }catch(error){
             console.error('Error sending user data:', error.message)
             toast.error('Nutzername oder Passwort falsch!', {
@@ -54,6 +58,8 @@ const Loginbox = () => {
                 progress: undefined,
                 theme: "colored",
                 });
+               
+
         }
     }
 

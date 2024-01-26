@@ -9,10 +9,10 @@ const Errorpage = () => {
 
   return (
     <div id='Errorpage'>
-        <h1>Upsiedupsie!</h1>
-        <p>Ein Fehler ist aufgetreten:</p>
+        <h1>OMG bisch du blöd</h1>
+        <p>Es het en Fehler geh</p>
         <h2>{error.statusText || error.message}</h2>
-        <p>Bitte Starten Sie die Seite erneut und/oder gehen Sie zurück zum Home!</p>
+        <p>Reparier schnell!</p>
     </div>
   )
 }

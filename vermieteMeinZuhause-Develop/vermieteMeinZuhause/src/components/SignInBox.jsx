@@ -27,7 +27,7 @@ const SignInBox = () => {
     try {
       const response = await axios.post('http://localhost:3000/user/add', formData);
       console.log('User data sent successfully:', response.data);
-      toast.success('Account erstellt!', {
+      toast.success('Account created!', {
         position: "bottom-right",
         autoClose: 3000,
         hideProgressBar: true,
@@ -36,6 +36,7 @@ const SignInBox = () => {
         draggable: true,
         progress: undefined,
         theme: "colored",
+        
         });
 
       setFormData({
@@ -43,6 +44,7 @@ const SignInBox = () => {
         eMail: '',
         password: '',
       });
+      window.location.assign('http://localhost:5173/');
     } catch (error) {
       console.error('Error sending user data:', error.message);
       toast.error(error.message, {
