@@ -4,6 +4,9 @@ import '../css/Mieten.css';
 import miami from '../assets/miami-villa.jpg';
 import sweden from '../assets/sweden-chalet.jpg';
 import africa from '../assets/african-hut.jpg'
+import montpellier from '../assets/montpellier.jpg'
+import boat from '../assets/boat.jpg'
+import zermatt from '../assets/zermatt.jpg'
 
 
 import '@mobiscroll/react/dist/css/mobiscroll.min.css';
@@ -48,23 +51,50 @@ const Mieten = () => {
           }}
           src={"https://maps.google.com/maps?q=Haus Mopanie&t=&z=13&ie=UTF8&&output=embed"}
       />
-        
-     <div>
-     </div>
-      
+      <br />
+      <br />
+      <br />
+      <br /><br />
+      <br /><br />
+      <br /><br />
      
+      <br />
+       <div className='Object-Board'>
+        <ObjectCard img={montpellier} shortname="montpellier" title="Arc de Triomphe Montpellier" adress="Montpellier, France" price="2500" stripeID="price_1OcnygKQgZyuYHae1HmntJKb" />
+        <ObjectCard img={zermatt} shortname="zermatt" title="Winter Chalet" adress="Zermatt, Switzerland" price="80" stripeID="price_1OcnzWKQgZyuYHaefWcsP0by" />
+        <ObjectCard img={boat} shortname="greeceboat" title="Boat House in Greece" adress="Mediterian Sea, Greece" price="45" stripeID="price_1OcnxTKQgZyuYHaey0LG6U91" />
+        </div>
+        <br />
+        <br />
 
-<div>
-</div>
       
-    
-
-<div>
-    
-
-     </div>
+                <iframe
+                
+                    width={"25%"}
+                    style={{
+                        aspectRatio: "16 / 9",
+                    }}
+                    src={"https://maps.google.com/maps?q=Montpellier Arc de Triomphe&t=&z=13&ie=UTF8&&output=embed"}
+                />
+                 <iframe
+          width={"25%"}
+          style={{
+              aspectRatio: "16 / 9",
+          }}
+          src={"https://maps.google.com/maps?q=Chalet Arnold, Zermatt&t=&z=13&ie=UTF8&&output=embed"}
+          
+      />
+        <iframe
+          width={"25%"}
+          style={{
+              aspectRatio: "16 / 9",
+          }}
+          src={"https://maps.google.com/maps?q=Rhodos Faliraki&t=&z=13&ie=UTF8&&output=embed"}
+      />
       
     </div>
+   
+    
   );
 };
 
