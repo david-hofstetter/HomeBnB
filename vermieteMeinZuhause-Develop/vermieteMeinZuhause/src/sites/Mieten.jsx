@@ -60,9 +60,9 @@ const Mieten = () => {
      
       <br />
        <div className='Object-Board'>
-        <ObjectCard img={montpellier} shortname="montpellier" title="Arc de Triomphe Montpellier" adress="Montpellier, France" price="2500" stripeID="price_1OcnygKQgZyuYHae1HmntJKb" />
+        <ObjectCard img={montpellier} shortname="montpellier" title="Arc de Triomphe" adress="Montpellier, France" price="2500" stripeID="price_1OcnygKQgZyuYHae1HmntJKb" />
         <ObjectCard img={zermatt} shortname="zermatt" title="Winter Chalet" adress="Zermatt, Switzerland" price="80" stripeID="price_1OcnzWKQgZyuYHaefWcsP0by" />
-        <ObjectCard img={boat} shortname="greeceboat" title="Boat House in Greece" adress="Mediterian Sea, Greece" price="45" stripeID="price_1OcnxTKQgZyuYHaey0LG6U91" />
+        <ObjectCard img={boat} shortname="greeceboat" title="Boat House" adress="Mediterian Sea, Greece" price="45" stripeID="price_1OcnxTKQgZyuYHaey0LG6U91" />
         </div>
         <br />
         <br />
